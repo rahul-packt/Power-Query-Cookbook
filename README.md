@@ -2,7 +2,7 @@
 
 <a href="https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297"><img src="https://static.packt-cdn.com/products/9781801079297/cover/smaller" alt="Actionable Insights with Amazon QuickSight" height="256px" align="right"></a>
 
-This is the code repository for [Data Engineering with AWS](https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297), published by Packt.
+This is the code repository for [Actionable Insights with Amazon QuickSight](https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297), published by Packt.
 
 **Develop stunning data visualizations and machine learning-driven insights with Amazon QuickSight**
 
