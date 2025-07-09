@@ -1,60 +1,109 @@
-# Actionable Insights with Amazon QuickSight	
+<h1 align="center">
+Building Business-Ready Generative AI Systems, First Edition</h1>
+<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/building-business-ready-generative-ai-systems-first-edition/9781837020690"> Building Business-Ready Generative AI Systems, First Edition</a>, published by Packt.
+</p>
 
-<a href="https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297"><img src="https://static.packt-cdn.com/products/9781801079297/cover/smaller" alt="Actionable Insights with Amazon QuickSight" height="256px" align="right"></a>
+<h2 align="center">
+Build Human-Centered Generative AI Systems with Agents, Memory, and LLMs for Enterprise
+</h2>
+<p align="center">
+Denis Rothman</p>
 
-This is the code repository for [Actionable Insights with Amazon QuickSight](https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297), published by Packt.
+<p align="center">
+   <a href="https://packt.link/I1tSU" alt="Discord" title="Learn more on the Discord server"><img width="32px" src="https://cliply.co/wp-content/uploads/2021/08/372108630_DISCORD_LOGO_400.gif"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/free-ebook/9781837020690"><img width="32px" alt="Free PDF" title="Free PDF" src="https://cdn-icons-png.flaticon.com/512/4726/4726010.png"/></a>
+ &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/gbp/9781837020690"><img width="32px" alt="Graphic Bundle" title="Graphic Bundle" src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+   <a href="https://www.amazon.com/Building-Business-Ready-Generative-Systems-Human-Centered/dp/1837020698/ref=tmm_pap_swatch_0?_encoding=UTF8&sr=8-1"><img width="32px" alt="Amazon" title="Get your copy" src="https://cdn-icons-png.flaticon.com/512/15466/15466027.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+</p>
+<details open> 
+  <summary><h2>About the book</summary>
+<a href="https://www.packtpub.com/product/unity-cookbook-fifth-edition/9781805123026">
+<img src="https://content.packt.com/B32304/cover_image_small.jpg" alt="Unity Cookbook, Fifth Edition" height="256px" align="right">
+</a>
 
-**Develop stunning data visualizations and machine learning-driven insights with Amazon QuickSight**
+In today's rapidly evolving AI landscape, standalone LLMs no longer deliver sufficient business value on their own. This guide moves beyond basic chatbots, showing you how to build advanced, agentic ChatGPT-grade systems capable of sophisticated semantic and sentiment analysis, powered by context-aware AI controllers. You'll design AI controller architectures with multi-user memory retention, enabling your system to dynamically adapt to diverse user and system inputs. You'll architect a Retrieval-Augmented Generation (RAG) system with Pinecone, designed to combine instruction-driven scenarios. Enhance your system’s intelligence with powerful multimodal capabilities—including image generation, voice interactions, and machine-driven reasoning—leveraging Chain-of-Thought orchestration to address complex, cross-domain automation challenges. Seamlessly integrate generative models like OpenAI’s suite and DeepSeek-R1 without disrupting your existing GenAISys ecosystem. Your GenAISys will apply neuroscience-inspired insights to marketing strategies, predict human mobility, integrate smoothly into human workflows, visualize complex scenarios, and connect to live external data all wrapped in a polished, investor-ready interface. By the end, you'll have built a GenAISys capable of deploying intelligent agents in your business environment.
+</details>
+<details open> 
+  <summary><h2>Key Learnings</summary>
+<ul>
 
-## What is this book about?
+<li>Implement an AI controller with a conversation AI agent and orchestrator at its core</li>
 
-The adoption of cloud-native BI tools, like Amazon QuickSight, enables organizations to gather insights from data at scale. This book is a practical guide to performing simple-to-advanced tasks with Amazon QuickSight.
+<li>Build contextual awareness with short-term, long-term, and cross-session memory</li>
 
-You’ll begin by learning QuickSight’s fundamental concepts and how to configure data sources. Next, you’ll be introduced to the main analysis-building functionality of QuickSight to develop visuals and dashboards. The book will also demonstrate how to develop and share interactive dashboards with parameters and on-screen controls. Advanced filtering options with URL actions will then be covered, before learning how to set up alerts and scheduled reports. Later, you’ll explore the Insights visual type in QuickSight using both existing insights and by building custom insights. Further chapters will show you how to add machine learning insights such as forecasting capabilities, analyzing time series data, adding narratives, and outlier detection to your dashboards. You’ll also explore patterns to automate operations and look closer into the API actions that allow us to control settings. Finally, you’ll learn advanced topics such as embedded dashboards and multitenancy.
+<li>Cross-domain automation with multimodal reasoning, image generation, and voice features</li>
 
-By the end of this book, you’ll be well-versed with QuickSight’s BI and analytics functionalities that will help you create BI apps with ML capabilities.
+<li>Expand a CoT agent by integrating consumer-memory understanding</li>
 
-This book covers the following exciting features: 
-* Understand the wider AWS analytics ecosystem and how QuickSight fits within it
-* Set up and configure data sources with Amazon QuickSight
-* Include custom controls and add interactivity to your BI application using parameters
-* Add ML insights such as forecasting, anomaly detection, and narratives
-* Explore patterns to automate operations using QuickSight APIs
-* Create interactive dashboards and storytelling with Amazon QuickSight
-* Design an embedded multi-tenant analytics architecture
-* Focus on data permissions and how to manage Amazon QuickSight operations
+<li>Integrate cutting-edge models of your choice without disrupting your existing GenAISys</li>
 
-If you feel this book is for you, get your [copy](https://www.amazon.in/Actionable-Insights-Amazon-QuickSight-learning-driven/dp/1801079293/ref=sr_1_1?keywords=Actionable+Insights+with+Amazon+QuickSight&qid=1638759116&sr=8-1) today!
+<li>Connect to real-time external data while blocking security breach</li>
 
-<a href="https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
+</ul>
 
-## Instructions and Navigations
-All of the code is organized into folders.
+  </details>
 
-The code will look like the following:
-```
-$aws quicksight update-user --user-name author-iam --role
-AUTHOR --custom-permissions-name custom-author --email <youremail>
---aws-account-id <account-id> --namespace default
---region us-east-1
-```
-**Following is what you need for this book:**
-This book is for business intelligence (BI) developers and data analysts who are looking to create interactive dashboards using data from Lake House on AWS with Amazon QuickSight. This book will also be useful for anyone who wants to learn Amazon QuickSight in depth using practical examples. You will need to be familiar with general data visualization concepts, however, no prior experience with Amazon QuickSight is required.
+<details open> 
+  <summary><h2>Chapters</summary>
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-10).
+**This repo is continually updated and upgraded.**    
+📝 For details on updates and improvements, see the [Changelog](./CHANGELOG.md).    
+🐬 *New bonus notebooks* to explore, see [Changelog](./CHANGELOG.md).     
+🚩 If you see anything that doesn't run as expected, raise an issue, and we'll work on it!      
 
-### Software and Hardware List
 
-| Chapter  | Software required                                                                    | OS required                        |
-| -------- | -------------------------------------------------------------------------------------| -----------------------------------|
-|  	1-10	   |   	AWS Web Services(AWS) with a recent version of a modern web browser(Chrome, Edge, etc.)                                  			  | Any OS | 		
+### Platforms
+You can run the notebooks directly from the table below:
+| Chapters | Colab | Kaggle | Gradient | Studio Lab |
+| :-------- | :-------- | :------- | :-------- | :-------- |
+| **Chapter 1: What is a ChatGPT AI Controller?** | | | | |
+| **Chapter 2: Building the Generative AI Model Controller** | | | | |
+| **Chapter 3: Adding Emerging Superalignment AI to the Generative AI Controller** | | | | |
+| **Chapter 4: Adding Multimodal RAG to the System** | | | | |
+| **Chapter 5: Adding Non-AI and ML Functionality to the Ecosystem** | | | | |
+| **Chapter 6: The Emergence of E-Marketing with AI Agents** | | | | |
+| **Chapter 7: The Emergence of Superintelligent Production Optimizing AI Agents** | | | | |
+| **Chapter 8: Implementing Warehouse and Transportation AI Agents** | | | | |
+| **Chapter 9: Intelligent Support Features** | | | | |
+| **Chapter 10: Integrating Advanced AI Agents into an Event- Driven Corporate System** | | | | |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781801079297_ColorImages.pdf).
 
-### Related products <Other books you may enjoy>
-* Machine Learning with Amazon SageMaker Cookbook  [[Packt]](https://www.packtpub.com/product/machine-learning-with-amazon-sagemaker-cookbook/9781800567030) [[Amazon]](https://www.amazon.in/Machine-Learning-Amazon-SageMaker-Cookbook/dp/1800567030/ref=sr_1_3?keywords=Machine+Learning+with+Amazon+SageMaker+Cookbook&qid=1638759383&sr=8-3)
-  
-* Amazon Redshift Cookbook  [[Packt]](https://www.packtpub.com/product/amazon-redshift-cookbook/9781800569683) [[Amazon]](https://www.amazon.in/Amazon-Redshift-Cookbook-warehousing-solutions/dp/1800569688/ref=sr_1_1?keywords=Amazon+Redshift+Cookbook&qid=1638759416&sr=8-1)
-  
-## Get to Know the Author
-**Manos Samatas** is a Solutions Architect specializing in Big Data and Analytics. He has several years of experience developing and designing big data applications for various industries, including telecommunications, cybersecurity, healthcare, and public sector. He is an accredited AWS Subject Matter Expert (SME) in Analytics and he is certified with the AWS Data Analytics Specialty and the AWS Solutions Architect Professional certifications. Manos lives in London with his fiancé Gabriela. In his free time, he enjoys traveling, socializing with friends, and taking care of his plants.
+
+
+
+
+</details>
+
+
+<details open> 
+  <summary><h2>Requirements for this book</summary>
+
+  To be filled
+  </details>
+    
+
+
+<details> 
+  <summary><h2>Get to know Authors</h2></summary>
+
+_Denis Rothman_ Denis Rothman graduated from Sorbonne University and Paris-Diderot University, designing one of the very first word2matrix patented embedding and patented AI conversational agents. He began his career authoring one of the first AI cognitive Natural Language Processing (NLP) chatbots applied as an automated language teacher for Moet et Chandon and other companies. He authored an AI resource optimizer for IBM and apparel producers. He then authored an Advanced Planning and Scheduling (APS) solution used worldwide. 
+[LinkedIn](https://www.linkedin.com/in/denis-rothman-0b034043/)
+
+
+
+</details>
+<details> 
+  <summary><h2>Other Related Books</h2></summary>
+<ul>
+
+  <li><a href="https://www.packtpub.com/en-us/product/building-ai-agents-with-llms-rag-and-knowledge-graphs-first-edition/9781835080382">Building AI Agents with LLMs, RAG, and Knowledge Graphs, First Edition</a></li>
+
+  <li><a href="https://www.packtpub.com/en-us/product/ai-agents-in-practice-first-edition/9781805801344">AI Agents in Practice, First Edition</a></li>
+ 
+</ul>
+
+</details>
